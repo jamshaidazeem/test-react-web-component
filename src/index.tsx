@@ -1,8 +1,11 @@
 import r2wc from "@r2wc/react-to-web-component";
-import App from "./App";
 
-const HelloWC = r2wc(App, {
-  props: { name: "string" },
+import { Checklist } from "./Checklist";
+
+const ChecklistWC = r2wc(Checklist, {
+  props: {
+    items: "json",
+  },
 });
 
-customElements.define("hello-wc", HelloWC);
+customElements.define("checklist-wc", ChecklistWC);
