@@ -6,7 +6,6 @@ const ChecklistWC = r2wc(Checklist, {
   props: {
     items: "json",
   },
-  shadow: "open",
 });
 
 customElements.define("checklist-wc", ChecklistWC);
