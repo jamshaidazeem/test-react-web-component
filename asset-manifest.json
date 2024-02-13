@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/test-react-web-component/static/js/main.5b8b164a.js",
+    "index.html": "/test-react-web-component/index.html",
+    "main.5b8b164a.js.map": "/test-react-web-component/static/js/main.5b8b164a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5b8b164a.js"
+  ]
+}
